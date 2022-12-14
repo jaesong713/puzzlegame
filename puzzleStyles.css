@@ -1,0 +1,178 @@
+body {
+    /*background-color: bisque;*/
+    background-image: url('puzzleimage.jpeg');
+}
+
+.div1 {
+    background-color: whitesmoke;
+    text-align: center;
+    border: 10px inset rgb(11, 187, 8);
+    border-radius: 10px;
+}
+
+.stopwatch {
+    border: 5px inset red;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.div2 {
+    background-color: whitesmoke;
+    text-align: center;
+    border: 10px inset rgb(11, 187, 8);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.div3 {
+    background-color: whitesmoke;
+    text-align: center;
+    border: 10px inset rgb(11, 187, 8);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.centertextcolor {
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px black;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 4px red;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(119, 198, 201);
+}
+
+/* this sets the properties of every cell as required by the prompt. */
+td {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+}
+
+/*  the classes [.a to .o] are used to assign the background images 
+    The transition properties slows down the shuffle process and makes it more appealing
+*/
+.a {
+    background-image: url("number tiles/1.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+
+}
+
+.b {
+    background-image: url("number tiles/2.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.c {
+    background-image: url("number tiles/3.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.d {
+    background-image: url("number tiles/4.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.e {
+    background-image: url("number tiles/5.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.f {
+    background-image: url("number tiles/6.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.g {
+    background-image: url("number tiles/7.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.h {
+    background-image: url("number tiles/8.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.i {
+    background-image: url("number tiles/9.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.j {
+    background-image: url("number tiles/10.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.k {
+    background-image: url("number tiles/11.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.l {
+    background-image: url("number tiles/12.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.m {
+    background-image: url("number tiles/13.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.n {
+    background-image: url("number tiles/14.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.o {
+    background-image: url("number tiles/15.png");
+    background-size: 100px 100px;
+    transition: background-image 2s;
+}
+
+.shufflebutton {
+    margin: auto;
+    display: block;
+}
+
+.divtime {
+    /* text-align: center; */
+    border: 5px solid #004853;
+    display: inline;
+    padding: 5px;
+    color: #004853;
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+td:hover{
+    cursor:grab
+}
